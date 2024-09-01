@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Penalties" representedClassName="Penalties" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="points" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <attribute name="drinkability" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="penalties" optional="YES" attributeType="Transformable" customClassName="[Penalties]"/>
+        <attribute name="points" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tasks" optional="YES" attributeType="Transformable" customClassName="[Tasks]"/>
+        <relationship name="penaltyRelation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Penalties"/>
+        <relationship name="taskRelation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tasks"/>
+    </entity>
+    <entity name="Tasks" representedClassName="Tasks" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="points" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>

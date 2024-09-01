@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41E40F32C77F3A1002852AC /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E40F22C77F3A1002852AC /* LeaderboardView.swift */; };
+		D41E40F52C77F3AD002852AC /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E40F42C77F3AD002852AC /* PlayerView.swift */; };
+		D41E41032C77FCA2002852AC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E41022C77FCA2002852AC /* HeaderView.swift */; };
+		D41E41092C78ABA1002852AC /* PlayerConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E41082C78ABA1002852AC /* PlayerConfigView.swift */; };
+		D41E41152C78DFFF002852AC /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D41E41132C78DFFF002852AC /* DataModel.xcdatamodeld */; };
+		D41E41182C78E76F002852AC /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E41172C78E76F002852AC /* PersistenceController.swift */; };
+		D41E41282C78EBD2002852AC /* CreatePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E41272C78EBD2002852AC /* CreatePlayerView.swift */; };
+		D41E413C2C79D3E4002852AC /* PlayerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E413B2C79D3E4002852AC /* PlayerRowView.swift */; };
+		D41E413F2C7BA6CF002852AC /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41E413E2C7BA6CF002852AC /* PlayerViewModel.swift */; };
 		D42D6BAE2C77E39D00FD10D6 /* Bottomless_Brunch_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D6BAD2C77E39D00FD10D6 /* Bottomless_Brunch_AppApp.swift */; };
-		D42D6BB02C77E39D00FD10D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D6BAF2C77E39D00FD10D6 /* ContentView.swift */; };
+		D42D6BB02C77E39D00FD10D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D6BAF2C77E39D00FD10D6 /* MainView.swift */; };
 		D42D6BB22C77E39E00FD10D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42D6BB12C77E39E00FD10D6 /* Assets.xcassets */; };
 		D42D6BB52C77E39E00FD10D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42D6BB42C77E39E00FD10D6 /* Preview Assets.xcassets */; };
+		D4D64D952C7E9B4B00BB9A6B /* TasksPenalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D942C7E9B4B00BB9A6B /* TasksPenalities.swift */; };
+		D4D64DA02C7EB6BD00BB9A6B /* Player+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D9A2C7EB6BD00BB9A6B /* Player+CoreDataClass.swift */; };
+		D4D64DA12C7EB6BD00BB9A6B /* Player+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D9B2C7EB6BD00BB9A6B /* Player+CoreDataProperties.swift */; };
+		D4D64DA22C7EB6BD00BB9A6B /* Tasks+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D9C2C7EB6BD00BB9A6B /* Tasks+CoreDataClass.swift */; };
+		D4D64DA32C7EB6BD00BB9A6B /* Tasks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D9D2C7EB6BD00BB9A6B /* Tasks+CoreDataProperties.swift */; };
+		D4D64DA42C7EB6BD00BB9A6B /* Penalties+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D9E2C7EB6BD00BB9A6B /* Penalties+CoreDataClass.swift */; };
+		D4D64DA52C7EB6BD00BB9A6B /* Penalties+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D64D9F2C7EB6BD00BB9A6B /* Penalties+CoreDataProperties.swift */; };
+		D4F730102C7F7E1D00594326 /* TaskSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7300F2C7F7E1D00594326 /* TaskSelectorView.swift */; };
+		D4F730122C7F7E4200594326 /* PenaltySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F730112C7F7E4200594326 /* PenaltySelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D42D6BAA2C77E39D00FD10D6 /* Bottomless Brunch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bottomless Brunch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41E40F22C77F3A1002852AC /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		D41E40F42C77F3AD002852AC /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		D41E41022C77FCA2002852AC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D41E41082C78ABA1002852AC /* PlayerConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerConfigView.swift; sourceTree = "<group>"; };
+		D41E41142C78DFFF002852AC /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		D41E41172C78E76F002852AC /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D41E41272C78EBD2002852AC /* CreatePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlayerView.swift; sourceTree = "<group>"; };
+		D41E413B2C79D3E4002852AC /* PlayerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRowView.swift; sourceTree = "<group>"; };
+		D41E413E2C7BA6CF002852AC /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		D42D6BAA2C77E39D00FD10D6 /* Bottomless Brunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bottomless Brunch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42D6BAD2C77E39D00FD10D6 /* Bottomless_Brunch_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottomless_Brunch_AppApp.swift; sourceTree = "<group>"; };
-		D42D6BAF2C77E39D00FD10D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D42D6BAF2C77E39D00FD10D6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D42D6BB12C77E39E00FD10D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42D6BB42C77E39E00FD10D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4D64D942C7E9B4B00BB9A6B /* TasksPenalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPenalities.swift; sourceTree = "<group>"; };
+		D4D64D9A2C7EB6BD00BB9A6B /* Player+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D4D64D9B2C7EB6BD00BB9A6B /* Player+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D4D64D9C2C7EB6BD00BB9A6B /* Tasks+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasks+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D4D64D9D2C7EB6BD00BB9A6B /* Tasks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasks+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D4D64D9E2C7EB6BD00BB9A6B /* Penalties+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Penalties+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D4D64D9F2C7EB6BD00BB9A6B /* Penalties+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Penalties+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D4F7300F2C7F7E1D00594326 /* TaskSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSelectorView.swift; sourceTree = "<group>"; };
+		D4F730112C7F7E4200594326 /* PenaltySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenaltySelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +68,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D41E40ED2C77EC87002852AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D41E41012C77FC98002852AC /* Utils */,
+				D42D6BAF2C77E39D00FD10D6 /* MainView.swift */,
+				D41E40F22C77F3A1002852AC /* LeaderboardView.swift */,
+				D41E40F42C77F3AD002852AC /* PlayerView.swift */,
+				D41E41082C78ABA1002852AC /* PlayerConfigView.swift */,
+				D41E41272C78EBD2002852AC /* CreatePlayerView.swift */,
+				D41E413B2C79D3E4002852AC /* PlayerRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D41E40F82C77F530002852AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4D64D9A2C7EB6BD00BB9A6B /* Player+CoreDataClass.swift */,
+				D4D64D9B2C7EB6BD00BB9A6B /* Player+CoreDataProperties.swift */,
+				D4D64D9C2C7EB6BD00BB9A6B /* Tasks+CoreDataClass.swift */,
+				D4D64D9D2C7EB6BD00BB9A6B /* Tasks+CoreDataProperties.swift */,
+				D4D64D9E2C7EB6BD00BB9A6B /* Penalties+CoreDataClass.swift */,
+				D4D64D9F2C7EB6BD00BB9A6B /* Penalties+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D41E41012C77FC98002852AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D41E41022C77FCA2002852AC /* HeaderView.swift */,
+				D4D64D942C7E9B4B00BB9A6B /* TasksPenalities.swift */,
+				D4F7300F2C7F7E1D00594326 /* TaskSelectorView.swift */,
+				D4F730112C7F7E4200594326 /* PenaltySelectorView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D41E41162C78E70F002852AC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D41E41172C78E76F002852AC /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		D42D6BA12C77E39D00FD10D6 = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +125,7 @@
 		D42D6BAB2C77E39D00FD10D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D42D6BAA2C77E39D00FD10D6 /* Bottomless Brunch App.app */,
+				D42D6BAA2C77E39D00FD10D6 /* Bottomless Brunch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +133,14 @@
 		D42D6BAC2C77E39D00FD10D6 /* Bottomless Brunch App */ = {
 			isa = PBXGroup;
 			children = (
+				D41E41162C78E70F002852AC /* CoreData */,
+				D41E40F82C77F530002852AC /* Models */,
+				D41E40ED2C77EC87002852AC /* Views */,
 				D42D6BAD2C77E39D00FD10D6 /* Bottomless_Brunch_AppApp.swift */,
-				D42D6BAF2C77E39D00FD10D6 /* ContentView.swift */,
 				D42D6BB12C77E39E00FD10D6 /* Assets.xcassets */,
 				D42D6BB32C77E39E00FD10D6 /* Preview Content */,
+				D41E41132C78DFFF002852AC /* DataModel.xcdatamodeld */,
+				D41E413E2C7BA6CF002852AC /* PlayerViewModel.swift */,
 			);
 			path = "Bottomless Brunch App";
 			sourceTree = "<group>";
@@ -70,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D42D6BA92C77E39D00FD10D6 /* Bottomless Brunch App */ = {
+		D42D6BA92C77E39D00FD10D6 /* Bottomless Brunch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D42D6BB82C77E39E00FD10D6 /* Build configuration list for PBXNativeTarget "Bottomless Brunch App" */;
+			buildConfigurationList = D42D6BB82C77E39E00FD10D6 /* Build configuration list for PBXNativeTarget "Bottomless Brunch" */;
 			buildPhases = (
 				D42D6BA62C77E39D00FD10D6 /* Sources */,
 				D42D6BA72C77E39D00FD10D6 /* Frameworks */,
@@ -82,9 +168,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bottomless Brunch App";
+			name = "Bottomless Brunch";
 			productName = "Bottomless Brunch App";
-			productReference = D42D6BAA2C77E39D00FD10D6 /* Bottomless Brunch App.app */;
+			productReference = D42D6BAA2C77E39D00FD10D6 /* Bottomless Brunch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D42D6BA52C77E39D00FD10D6 /* Build configuration list for PBXProject "Bottomless Brunch App" */;
+			buildConfigurationList = D42D6BA52C77E39D00FD10D6 /* Build configuration list for PBXProject "Brunch" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D42D6BA92C77E39D00FD10D6 /* Bottomless Brunch App */,
+				D42D6BA92C77E39D00FD10D6 /* Bottomless Brunch */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +223,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42D6BB02C77E39D00FD10D6 /* ContentView.swift in Sources */,
+				D4D64D952C7E9B4B00BB9A6B /* TasksPenalities.swift in Sources */,
+				D41E413C2C79D3E4002852AC /* PlayerRowView.swift in Sources */,
+				D41E40F32C77F3A1002852AC /* LeaderboardView.swift in Sources */,
+				D41E413F2C7BA6CF002852AC /* PlayerViewModel.swift in Sources */,
+				D41E41092C78ABA1002852AC /* PlayerConfigView.swift in Sources */,
+				D42D6BB02C77E39D00FD10D6 /* MainView.swift in Sources */,
+				D4F730102C7F7E1D00594326 /* TaskSelectorView.swift in Sources */,
+				D41E41152C78DFFF002852AC /* DataModel.xcdatamodeld in Sources */,
+				D41E41182C78E76F002852AC /* PersistenceController.swift in Sources */,
+				D4F730122C7F7E4200594326 /* PenaltySelectorView.swift in Sources */,
+				D41E40F52C77F3AD002852AC /* PlayerView.swift in Sources */,
 				D42D6BAE2C77E39D00FD10D6 /* Bottomless_Brunch_AppApp.swift in Sources */,
+				D41E41032C77FCA2002852AC /* HeaderView.swift in Sources */,
+				D41E41282C78EBD2002852AC /* CreatePlayerView.swift in Sources */,
+				D4D64DA02C7EB6BD00BB9A6B /* Player+CoreDataClass.swift in Sources */,
+				D4D64DA12C7EB6BD00BB9A6B /* Player+CoreDataProperties.swift in Sources */,
+				D4D64DA22C7EB6BD00BB9A6B /* Tasks+CoreDataClass.swift in Sources */,
+				D4D64DA32C7EB6BD00BB9A6B /* Tasks+CoreDataProperties.swift in Sources */,
+				D4D64DA42C7EB6BD00BB9A6B /* Penalties+CoreDataClass.swift in Sources */,
+				D4D64DA52C7EB6BD00BB9A6B /* Penalties+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bottomless Brunch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UAZ2WNX4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bottomless Brunch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UAZ2WNX4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +429,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D42D6BA52C77E39D00FD10D6 /* Build configuration list for PBXProject "Bottomless Brunch App" */ = {
+		D42D6BA52C77E39D00FD10D6 /* Build configuration list for PBXProject "Brunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D42D6BB62C77E39E00FD10D6 /* Debug */,
@@ -332,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D42D6BB82C77E39E00FD10D6 /* Build configuration list for PBXNativeTarget "Bottomless Brunch App" */ = {
+		D42D6BB82C77E39E00FD10D6 /* Build configuration list for PBXNativeTarget "Bottomless Brunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D42D6BB92C77E39E00FD10D6 /* Debug */,
@@ -342,6 +448,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D41E41132C78DFFF002852AC /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D41E41142C78DFFF002852AC /* DataModel.xcdatamodel */,
+			);
+			currentVersion = D41E41142C78DFFF002852AC /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = "/Users/Joey/Documents/XCode/Bottomless Brunch/Bottomless Brunch App/Bottomless Brunch App/DataModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D42D6BA22C77E39D00FD10D6 /* Project object */;
 }
