@@ -158,8 +158,7 @@ struct PlayerConfigView: View {
     
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.timeStyle = .short
+        formatter.dateFormat = "MMM d, h:mm a" // "MMM d" for the date, "h:mm a" for the time with AM/PM
         return formatter
     }()
-
 }
